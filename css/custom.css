@@ -37,12 +37,14 @@ nav {
   .cart {
     display: flex;
     align-items: center;
+    
    
   }
   
   .cart img {
     margin-left: 3rem;
-    height: 30px;
+    height: 3rem;
+  
   }
   
   /* Responsive Anpassung */
@@ -58,10 +60,11 @@ nav {
     }
   
     .cart {
-
       margin-left: 4vw;
+      
     }
     #price {
-        margin-right: 4vw;
+        display: flex;
+        align-items: center;
     }
   }
