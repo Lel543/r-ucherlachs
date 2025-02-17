@@ -114,6 +114,16 @@
 
 }
 
+.mt-0{
+  margin-top: 1vh;
+}
+.mt-1{
+  margin-top: 3vh;
+}
+.mt-2{
+  margin-top: 5vh;
+}
+
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -375,11 +385,6 @@ form {
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-hr {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
-  border-width: 0;
-  border-top: 1px solid #E1E1E1; }
 
 
 /* Clearing

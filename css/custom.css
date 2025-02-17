@@ -67,4 +67,8 @@ nav {
         display: flex;
         align-items: center;
     }
+
+  }
+  .seperator{
+    border: 0.1rem solid black !important;
   }
