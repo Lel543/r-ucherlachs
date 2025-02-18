@@ -96,3 +96,16 @@ nav {
     font-style: italic;
     font-size: var(--font-size-xmedium);
   }
+
+  .bestellen_btn{
+    background-color: rgb(141, 141, 244);
+    color: #ffffff;
+    border-radius: 30px;
+    transition: 0.4s;
+  }
+  .bestellen_btn:hover{
+    background-color: rgb(65, 65, 113);
+    color: #ffffff;
+    border-radius: 30px;
+    
+  }
