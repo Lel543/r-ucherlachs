@@ -1,4 +1,17 @@
-/* Navbar Styling */
+:root {
+    --primary-color: #ffcc00;
+    --secondary-color: #000000;
+    --font-size-large: calc(2.5rem + 2vw);
+    --font-size-medium: 3.3rem;
+    --font-size-xmedium: 2rem;
+    --font-size-small: 1.4rem;
+  }
+
+  @font-face {
+    font-family: "CormorantGaramond";
+    src: url(../fonts/CormorantGaramond-Regular.ttf);
+  }
+  
 nav {
     display: flex;
     justify-content: space-between;
@@ -71,4 +84,28 @@ nav {
   }
   .seperator{
     border: 0.1rem solid black !important;
+  }
+
+  .offers{
+   
+    padding: 1%;
+  }
+
+  .product-description{
+    font-family: "CormorantGaramond";
+    font-style: italic;
+    font-size: var(--font-size-xmedium);
+  }
+
+  .bestellen_btn{
+    background-color: rgb(141, 141, 244);
+    color: #ffffff;
+    border-radius: 30px;
+    transition: 0.4s;
+  }
+  .bestellen_btn:hover{
+    background-color: rgb(65, 65, 113);
+    color: #ffffff;
+    border-radius: 30px;
+    
   }
