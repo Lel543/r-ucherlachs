@@ -93,6 +93,37 @@ nav {
 .product-price {
     font-size: var(--font-size-product-price);
     
+  }
+
+  .background{
+    position: relative;
+  }
+  .background-img{
+    width: 100%;
+    height: 100%;
+  }
+  .background-h1{
+    position: absolute;
+    top: 10vw;
+    font-size: 10vmax;
+    color: white;
+  }
+  .btn-1 {
+    background-color: #7FC6D7; /* Hellblau */
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+.btn-1:hover {
+    background-color: #3a5a61; 
+    color: #ffffff;
+}
+
 }
 
 .bestellen_btn {
@@ -135,6 +166,7 @@ footer p, footer a {
 footer a:hover {
     text-decoration: underline;
 }
+<<<<<<< HEAD
 
 .profile-img {
     width: 100%;
@@ -153,3 +185,5 @@ footer a:hover {
   #about-me p {
     font-size: var(--font-size-small);
   }
+=======
+>>>>>>> 2cb2c42994d6dd41da7afa619b7d1f32cdc6ede6
