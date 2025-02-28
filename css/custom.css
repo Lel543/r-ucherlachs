@@ -1,6 +1,6 @@
 :root {
     --grey: #333;
-    --font-size-large: calc(2.5rem + 2vw);
+    --font-size-heading: 10rem;
     --font-size-medium: 3.3rem;
     --font-size-xmedium: 2rem;
     --font-size-small: 1.6rem;
@@ -104,8 +104,9 @@ nav {
   }
   .background-h1{
     position: absolute;
-    top: 10vw;
-    font-size: 10vmax;
+    top: 20%;
+    left: 3%;
+    font-size: var(--font-size-heading);
     color: white;
   }
   .btn-1 {
