@@ -123,3 +123,18 @@ nav {
     font-size: 10vmax;
     color: white;
   }
+  .btn-1 {
+    background-color: #7FC6D7; /* Hellblau */
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+.btn-1:hover {
+    background-color: #3a5a61; 
+    color: #ffffff;
+}
