@@ -4,6 +4,7 @@
     --font-size-medium: 3.3rem;
     --font-size-xmedium: 2rem;
     --font-size-small: 1.6rem;
+    --font-size-xsmall: 1.4rem;
     --font-size-product-description: 2.5rem; 
     --font-size-product-price: 2.5rem; 
     --font-size-button: 1.8rem;
@@ -128,9 +129,27 @@ footer h3 {
 footer p, footer a {
     color: white;
     text-decoration: none;
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-xsmall);
 }
 
 footer a:hover {
     text-decoration: underline;
 }
+
+.profile-img {
+    width: 100%;
+    border-radius: 80%;
+  }
+  
+  #about-me {
+    text-align: left;
+  }
+  
+  #about-me h2 {
+    font-size: var(--font-size-medium);
+    margin-bottom: 1rem;
+  }
+  
+  #about-me p {
+    font-size: var(--font-size-small);
+  }
