@@ -166,7 +166,7 @@ footer p, footer a {
 footer a:hover {
     text-decoration: underline;
 }
-<<<<<<< HEAD
+
 
 .profile-img {
     width: 100%;
@@ -185,5 +185,4 @@ footer a:hover {
   #about-me p {
     font-size: var(--font-size-small);
   }
-=======
->>>>>>> 2cb2c42994d6dd41da7afa619b7d1f32cdc6ede6
+
