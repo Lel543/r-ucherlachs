@@ -1,4 +1,3 @@
-
 <template>
   <div class="home">
     <Background />
@@ -10,19 +9,17 @@
 </template>
 
 <script>
-import Background from './Background.vue';
-import ProductList from './ProductList.vue';
-import AboutMe from './AboutMe.vue';
+import Background from './Background.vue'
+import ProductList from './ProductList.vue'
+import AboutMe from './AboutMe.vue'
 
 export default {
   components: {
     Background,
     ProductList,
-    AboutMe
-  }
-};
+    AboutMe,
+  },
+}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

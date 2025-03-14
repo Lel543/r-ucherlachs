@@ -8,7 +8,7 @@ import './assets/css/normalize.css'
 import './assets/css/skeleton.css'
 import './assets/css/style.css'
 import './assets/css/custom.css'
-
+import 'animate.css'
 
 const app = createApp(App)
 app.use(router)

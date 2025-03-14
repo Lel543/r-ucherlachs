@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="text-center d-flex flex-column ga-2 py-4" color="indigo-lighten-1">
+  <v-footer class="text-center d-flex flex-column ga-2 py-4" color="grey-darken-4">
     <div class="d-flex ga-3">
       <v-btn
         v-for="icon in icons"
@@ -15,7 +15,7 @@
     <v-container>
       <v-row>
         <v-col cols="6">
-          <v-card color="indigo-lighten-1" flat>
+          <v-card color="grey-darken-4" flat>
             <v-card-title class="text-h5">Kontakt</v-card-title>
             <v-card-text class="text-body-1">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis
@@ -25,7 +25,7 @@
         </v-col>
 
         <v-col cols="6">
-          <v-card color="indigo-lighten-1" flat>
+          <v-card color="grey-darken-4" flat>
             <v-card-title class="text-h5">Informationen</v-card-title>
             <v-card-text class="text-body-1">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis

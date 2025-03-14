@@ -1,6 +1,13 @@
 <template>
-  <v-carousel show-arrows="hover" hide-delimiters cycle interval="10000" class="mb-5">
-    <v-carousel-item v-for="(item, i) in items" :key="i" :transition="'fade-transition'">
+  <v-carousel
+    show-arrows="hover"
+    delimiter-icon="mdi-fish"
+    hide-delimiter-background
+    cycle
+    interval="10000"
+    class="mb-5"
+  >
+    <v-carousel-item v-for="(item, i) in items" :key="i">
       <v-img :src="item.src" cover></v-img>
     </v-carousel-item>
   </v-carousel>
