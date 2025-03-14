@@ -21,6 +21,15 @@ a,
   }
 }
 
+@font-face {
+  font-family: 'Montserrat-Bold-Heading';
+  src: url('@/assets/fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+.Montserat-Bold-Heading {
+  font-family: 'Montserrat-Bold-Heading';
+}
+
 @media (min-width: 1024px) {
   body {
     display: flex;

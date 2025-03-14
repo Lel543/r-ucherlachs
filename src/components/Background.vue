@@ -1,25 +1,28 @@
 <template>
-    <div class="background">
-      <h1 class="background-h1">Willkommen!</h1>
-      <img class="background-img" src="../../public/img/Background_edit.png" alt="Welcome">
-      <button id="scroll-down-btn" class="scroll-down-btn" @click="scrollDown">▼</button>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'Background',
-    methods: {
-      scrollDown() {
-        window.scrollTo({
-          top: window.innerHeight,
-          behavior: 'smooth'
-        });
-      }
+  <v-carousel
+    show-arrows="hover"
+    delimiter-icon="mdi-fish"
+    hide-delimiter-background
+    cycle
+    interval="10000"
+    class="mb-5"
+  >
+    <v-carousel-item v-for="(item, i) in items" :key="i">
+      <v-img :src="item.src" cover></v-img>
+    </v-carousel-item>
+  </v-carousel>
+</template>
+
+<script>
+export default {
+  name: 'Background',
+  data() {
+    return {
+      items: [{ src: '/img/prod1.JPG' }, { src: '/img/prod2.JPG' }, { src: '/img/prod3.JPG' }],
     }
-  };
-  </script>
-  
-  <style scoped>
- 
-  </style>
+  },
+  methods: {},
+}
+</script>
+
+<style scoped></style>
