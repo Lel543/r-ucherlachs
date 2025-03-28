@@ -35,7 +35,7 @@ export default {
   name: 'AboutMe',
 }
 </script>
-
+a
 <style>
 .text-body-1 {
   font-size: 6rem;
