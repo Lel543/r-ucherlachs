@@ -10,17 +10,21 @@
       <v-btn text to="/bestellen">Bestellen</v-btn>
       <v-btn text to="/about">Über</v-btn>
       <v-btn text to="/cart" class="d-flex align-center">
-        <span class="mr-2">0,00 EUR</span>
-        <v-icon>mdi-cart</v-icon>
+        <v-badge
+          :content="totalItems"
+          color="red"
+          overlap
+          v-if="totalItems > 0"
+        >
+          <v-icon>mdi-cart</v-icon>
+        </v-badge>
       </v-btn>
     </v-container>
   </v-app-bar>
 </template>
 
-<script>
-export default {
-  name: 'Header',
-}
+<script setup>
+import { totalItems } from '@/services/cartStore.js'
 </script>
 
 <style scoped>
